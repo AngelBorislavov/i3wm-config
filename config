@@ -193,5 +193,6 @@ bar {
 bindsym $mod + w exec brave
 bindsym $mod + h exec thunar 
 
-#WALLPEPERS FOR BG
-#exec aways feh --bg-scale /home/angel/Pictures/wallp.png
+#MY APPS
+exec_always feh --bg-scale /home/angel/Pictures/wallp.png
+exec_always picom
